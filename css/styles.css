@@ -241,3 +241,76 @@ body.dark{
     font-size: .8rem;
 }
 
+/* ESTILOS EXPERIENCIA DE TRABAJOS COLUMNA IZQUIERDA */
+.developer{
+    color: var(--primary-color);
+}
+
+.job__tech{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 12px;
+}
+.icon_tech{
+    font-size: 25px;
+}
+
+/* COLORES DE LOS ICONOS DE TECNOLOGIAS USADAS COLUM IZQ */
+.icon__tech-html{color: orangered;}
+.icon__tech-js{color: rgb(201, 201, 10);}
+.icon__tech-cs{color: #2449D8;}
+.icon__tech-sass{color: #CA689B;}
+.icon__tech-gulp{color: #DB4749;}
+.icon__tech-pug{color: #E3C29B;}
+.icon__tech-php{
+    background-color: #7175AA;
+    color: #000; 
+    border-radius: 60%;}
+
+.tech{
+    font-weight: bold;
+    font-size: .6rem;
+}
+
+
+
+/* PROYECTOS COLUMNA DERECHA  */
+@media screen and (min-width:720px){
+    .card--proyect{
+        display: grid;
+        grid-template-columns: min-content 1fr;
+        grid-column: 1/-1;
+    }
+}
+.card__image-project{
+    width: 400px;
+    max-height: 296px;
+    margin-bottom: 1em;
+}
+.card__img{
+    max-width: 100%;
+}
+@media screen and (min-width:720px){
+    .proyect{
+        margin-left: 1em;
+    }
+}
+.proyect__tags{
+    font-size: .8em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 275px;
+    margin-bottom: 1em;
+}
+.proyect__tag{
+    padding: .4em .6em;
+    border-radius: var(--border-radius);
+    background-color:var(--primary-color);
+    transition: var(--transition-colors);
+}
+
+
+
+
