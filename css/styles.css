@@ -310,6 +310,19 @@ body.dark{
     background-color:var(--primary-color);
     transition: var(--transition-colors);
 }
+.button{
+    display: inline-block;
+    background-color: var(--primary-color);
+    color: var(--text-color);
+    padding: .5em;
+    border-radius: var(--border-radius);
+    transition: var(--transition-colors);
+}
+.button__Code{
+    background-color: transparent;
+    border: 1px solid var(--primary-color);
+    color: var(--primary-color);
+}
 
 
 
