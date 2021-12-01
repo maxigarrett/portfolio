@@ -125,13 +125,7 @@ body.dark{
     }
 }
 
-/* para acomodar las tarjetas de experiencios en diferente lugar */
-    /* @media screen and (min-width:720px){
-    .card--desing{
-        grid-column: 1/2;
-        grid-row: 2/3;
-    }
-} */
+
 .card{
     padding: 1em;
     background-color: var(--bg-card-color);
@@ -142,10 +136,8 @@ body.dark{
     width: 150px;
     border-radius: var(--border-radius);
     overflow: hidden;
-    padding: 1px;
+    /* padding: 1px; */
     background-color: var(--primary-color);
-    /* margin-left: auto;
-    margin-right: auto; */
 }
 
 .card__header{
@@ -285,7 +277,7 @@ body.dark{
 }
 .card__image-project{
     width: 400px;
-    max-height: 296px;
+    max-height: 218px;
     margin-bottom: 1em;
 }
 .card__img{
@@ -310,6 +302,11 @@ body.dark{
     background-color:var(--primary-color);
     transition: var(--transition-colors);
 }
+.card__text{
+    margin: 0;
+    margin-bottom: .5em;
+
+}
 .button{
     display: inline-block;
     background-color: var(--primary-color);
@@ -323,7 +320,10 @@ body.dark{
     border: 1px solid var(--primary-color);
     color: var(--primary-color);
 }
+.card__resolutions{
+    font-weight: bold;
+}
 
-
+span{cursor: pointer;}
 
 
