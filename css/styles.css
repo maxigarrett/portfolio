@@ -25,6 +25,7 @@ body{
     color: var(--text-color);
     transition: var(--transition-colors);
     font-family: sans-serif;
+    min-width: min-content;
 }
 
 /*modo oscuro cambiamos de valor las variables globales */
@@ -271,6 +272,13 @@ body.dark{
 @media screen and (min-width:720px){
     .card--proyect{
         display: grid;
+        /* grid-template-columns: min-content 1fr; */
+        grid-column: 1/-1;
+    }
+}
+@media screen and (min-width:1100px){
+    .card--proyect{
+        display: grid;
         grid-template-columns: min-content 1fr;
         grid-column: 1/-1;
     }
@@ -324,6 +332,5 @@ body.dark{
     font-weight: bold;
 }
 
-span{cursor: pointer;}
 
 
