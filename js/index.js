@@ -9,15 +9,14 @@ const rootStyles=document.documentElement.style//accedemos a nuestra hojas de es
 //poner el drak mode o quitarcelo
 toggleTheme.addEventListener('click',(e)=>{
     document.body.classList.toggle('dark');
-    if(toggleIcon.src.includes('moon.svg')){
-        toggleText.textContent='ligth';
-        toggleIcon.src='./assets/icons/sun.png'; 
+    if(toggleIcon.src.includes('sun.png')){
+        toggleText.textContent='Dark';
+        toggleIcon.src='./assets/icons/moon.svg'; 
     }
     else {
-        toggleText.textContent='Dark'
-        toggleIcon.src='./assets/icons/moon.svg'
+        toggleText.textContent='ligth'
+        toggleIcon.src='./assets/icons/sun.png'
     }
-
 })
 
 toggleColors.addEventListener('click',(e)=>{
