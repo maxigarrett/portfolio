@@ -333,10 +333,12 @@ body.dark{
     margin-bottom: 1em;
 }
 .proyect__tag{
+    display: inline-block;
     padding: .4em .6em;
     border-radius: var(--border-radius);
     background-color:var(--primary-color);
     transition: var(--transition-colors);
+    margin-right: 10px;
 }
 .card__text{
     margin: 0;
