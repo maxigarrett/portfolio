@@ -314,7 +314,6 @@ body.dark{
     width: 400px;
     max-height: 218px;
     margin-bottom: 1em;
--webkit-box-reflect: below 0 linear-gradient(transparent,transparent,rgba(0,0,0,.06));
 }
 
 .card__img{
