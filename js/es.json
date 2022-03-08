@@ -1,0 +1,13 @@
+{
+    "Perfile":{
+        "Rol":"Desarrollador Fron End",
+        "Description":" 3 años de experiencia en desarrollo web. Eterno autodidacta y apacionado por la nuevas tecnologias, buenas practicas y en especial en el ecosistema de JavaScript, css y React.",
+        "name":"Maximilinao Garrett"
+    },
+    "Experiencies-Job":{
+        "first-title-job":"Experiencia",
+        "first-dates-Job":" intranet para una fundacion de volley. Donde se gestionaba las jugadoras dandolas de baja o de alta en los equipos,como tambien las preferencias de canchas y horarios de cada equipo",
+        "second-title-job":"Experiencia",
+        "second-dates-Job":"pagina Web de semilleria, muestra informacion de la semilla, galeria de fotos donde se creaba la semilla formulario de contacto (en pausa)"
+    }
+}
