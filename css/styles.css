@@ -164,8 +164,8 @@ body.dark{
     width: 150px;
     border-radius: var(--border-radius);
     overflow: hidden;
-    /* padding: 1px; */
-    background-color: var(--primary-color);
+    /* padding: 1px;
+    background-color: var(--primary-color); */
 }
 
 .card__header{
