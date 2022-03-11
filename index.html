@@ -1,372 +1,578 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"/>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-        href="https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap"
-        rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap"
+      rel="stylesheet"
     />
-    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./css/styles.css" />
     <title>PORTFOLIO</title>
-</head>
-<body class="dark">
+  </head>
+  <body class="dark">
     <header class="header">
-        <div class="header__switches">
-            <div id="toggle-theme" class="toggle-theme">
-                <img id="toggle-icon" class="toggle-theme__icon" src="./assets/icons/sun.png" alt="darkTheme" >
-                <p id="toggle-text" class="toggle-theme__text">ligth</p>
-            </div>
-            <div id="toggle-colors" class="colors">
-                <div data-color="hsl(214,84%,56%)" class="colors__items colors__items--blue"></div>
-                <div data-color="hsl(150,84%,56%)" class="colors__items colors__items--green"></div>
-                <div data-color="hsl(276,84%,56%)" class="colors__items colors__items--purple"></div>
-                <div data-color="hsl(46,84%,56%)" class="colors__items colors__items--orange"></div>
-            </div>
+      <div class="header__switches">
+        <div id="toggle-theme" class="toggle-theme">
+          <img
+            id="toggle-icon"
+            class="toggle-theme__icon"
+            src="./assets/icons/sun.png"
+            alt="darkTheme"
+          />
+          <p id="toggle-text" class="toggle-theme__text">ligth</p>
         </div>
+        <div id="toggle-colors" class="colors">
+          <div
+            data-color="hsl(214,84%,56%)"
+            class="colors__items colors__items--blue"
+          ></div>
+          <div
+            data-color="hsl(150,84%,56%)"
+            class="colors__items colors__items--green"
+          ></div>
+          <div
+            data-color="hsl(276,84%,56%)"
+            class="colors__items colors__items--purple"
+          ></div>
+          <div
+            data-color="hsl(46,84%,56%)"
+            class="colors__items colors__items--orange"
+          ></div>
+        </div>
+      </div>
     </header>
     <main class="main">
-        <!-- <h1 class="title">PORTFOLIO</h1> -->
-        <section class="columns columns--left">
-            <!-- profile card user-->
-            <article class="card card--prifiled">
-                <div class="card__image-container">
-                    <img src="./assets/images/imgProfile.png" alt="profile">
-                </div>
-                <div class="card__header">
-                    <h2 class="card__title">Maximiliano Garrett</h2>
-                    <p class="card__subtitle">Front End Developer</p>
-                </div>
-                <div class="card__body">
-                    <div class="card__link">
-                        <i class="fas fa-envelope icon"></i>
-                        <a href="mailto:flecha.moll.22@gmail.com">flecha.moll.22@gmail.com</a>
-                    </div>
-                    <div class="card__link">
-                        <i class="fas fa-phone-alt icon"></i>
-                        <a href="tel:2346482047">+54-2346482047</a>
-                    </div>
-                    <p class="card__text">
-                        3 años de experiencia en desarrollo web. Eterno autodidacta y 
-                        apacionado por la nuevas tecnologias, buenas practicas y en especial en el ecosistema
-                        de JavaScript, css y React. <br/>
-                    </p>
-                </div>
-            </article>
-            <article class="card card--experience">
-                <h2 class="card__title">Experiencia</h2>
-                <div class="card__experience">
-                    <p class="experience__time">
-                        Ene 2020 /  May 2020
-                    </p>
-                    <div class="experience__info">
-                        intranet para una fundacion de volley. Donde se gestionaba
-                        las jugadoras dandolas de baja o de alta en los equipos,como tambien las preferencias de canchas
-                        y horarios de cada equipo
-                    </div>
-                    <div class="experince__job">
-                        <p class="developer">Front End y Back End Developer</p>
-                        <div class="job__tech">
-                            <p class="tech">PHP</p>
-                            <i class="icon_tech fab fa-php icon__tech-php"></i>
-                        </div>
-                        <div class="job__tech">
-                            <p class="tech">HTML</p>
-                            <i class="icon_tech fab fa-html5 icon__tech-html"></i>
-                        </div>
-                        <div class="job__tech">
-                            <p class="tech">JS</p>
-                            <i class="icon_tech fab fa-js icon__tech-js"></i>
-                        </div>
-                        <div class="job__tech">
-                            <p class="tech tech__css">CSS</p>
-                            <i class="icon_tech fab fa-css3-alt icon__tech-cs"></i>
-                        </div>
-                    </div>
-                </div>
-            </article>
+      <!-- <h1 class="title">PORTFOLIO</h1> -->
+      <section class="columns columns--left">
+        <!-- profile card user-->
+        <article class="card card--prifiled">
+          <div class="card__image-container">
+            <img src="./assets/images/imgProfile.png" alt="profile" />
+          </div>
+          <div class="card__header">
+            <h2 class="card__title">Maximiliano Garrett</h2>
+            <p class="card__subtitle">Front End Developer</p>
+          </div>
+          <div class="card__body">
+            <div class="card__link">
+              <i class="fas fa-envelope icon"></i>
+              <a href="mailto:flecha.moll.22@gmail.com"
+                >flecha.moll.22@gmail.com</a
+              >
+            </div>
+            <div class="card__link">
+              <i class="fas fa-phone-alt icon"></i>
+              <a href="tel:2346482047">+54-2346482047</a>
+            </div>
+            <p class="card__text">
+              3 años de experiencia en desarrollo web. Eterno autodidacta y
+              apacionado por la nuevas tecnologias, buenas practicas y en
+              especial en el ecosistema de JavaScript, css y React. <br />
+            </p>
+          </div>
+        </article>
+        <article class="card card--experience">
+          <h2 class="card__title">Experiencia</h2>
+          <div class="card__experience">
+            <p class="experience__time">Ene 2020 / May 2020</p>
+            <div class="experience__info">
+              intranet para una fundacion de volley. Donde se gestionaba las
+              jugadoras dandolas de baja o de alta en los equipos,como tambien
+              las preferencias de canchas y horarios de cada equipo
+            </div>
+            <div class="experince__job">
+              <p class="developer">Front End y Back End Developer</p>
+              <div class="job__tech">
+                <p class="tech">PHP</p>
+                <i class="icon_tech fab fa-php icon__tech-php"></i>
+              </div>
+              <div class="job__tech">
+                <p class="tech">HTML</p>
+                <i class="icon_tech fab fa-html5 icon__tech-html"></i>
+              </div>
+              <div class="job__tech">
+                <p class="tech">JS</p>
+                <i class="icon_tech fab fa-js icon__tech-js"></i>
+              </div>
+              <div class="job__tech">
+                <p class="tech tech__css">CSS</p>
+                <i class="icon_tech fab fa-css3-alt icon__tech-cs"></i>
+              </div>
+            </div>
+          </div>
+        </article>
 
-            <article class="card">
-                <h2 class="card__title">Experiencia</h2>
-                <div class="card__experience">
-                    <p class="experience__time">
-                        Oct 2021 / ...
-                    </p>
-                    <div class="experience__info">
-                        pagina Web de semilleria, muestra informacion de la semilla, galeria de fotos donde se creaba la semilla
-                        formulario de contacto (en pausa)
-                    </div>
-                    <div class="experince__job">   
-                        <p class="developer">Front End Developer</p>
-                        <div class="job__tech">
-                            <p class="tech">HTML</p>
-                            <i class="icon_tech fab fa-html5 icon__tech-html"></i>
-                        </div>
-                        <div class="job__tech">
-                            <p class="tech">JS</p>
-                            <i class="icon_tech fab fa-js icon__tech-js"></i>
-                        </div>
-                        <div class="job__tech">
-                            <p class="tech tech__css">CSS</p>
-                            <i class="icon_tech fab fa-css3-alt icon__tech-cs"></i>
-                        </div>
-                        <div class="job__tech">
-                            <p class="tech tech__sass">SASS</p>
-                            <i class="icon_tech fab fa-sass icon__tech-sass"></i>
-                        </div>
-                        <div class="job__tech">
-                            <p class="tech tech__gulp">GULP</p>
-                            <i class="icon_tech fab fa-gulp icon__tech-gulp"></i>
-                        </div>
-                        <div class="job__tech">
-                            <p class="tech tech__pug">PUG</p>
-                            <i class="icon_tech fas fa-dog icon__tech-pug"></i>
-                        </div>
-                    </div>
-                </div>
-            </article>
-        </section>
+        <article class="card">
+          <h2 class="card__title">Experiencia</h2>
+          <div class="card__experience">
+            <p class="experience__time">Oct 2021 / ...</p>
+            <div class="experience__info">
+              pagina Web de semilleria, muestra informacion de la semilla,
+              galeria de fotos donde se creaba la semilla formulario de contacto
+              (en pausa)
+            </div>
+            <div class="experince__job">
+              <p class="developer">Front End Developer</p>
+              <div class="job__tech">
+                <p class="tech">HTML</p>
+                <i class="icon_tech fab fa-html5 icon__tech-html"></i>
+              </div>
+              <div class="job__tech">
+                <p class="tech">JS</p>
+                <i class="icon_tech fab fa-js icon__tech-js"></i>
+              </div>
+              <div class="job__tech">
+                <p class="tech tech__css">CSS</p>
+                <i class="icon_tech fab fa-css3-alt icon__tech-cs"></i>
+              </div>
+              <div class="job__tech">
+                <p class="tech tech__sass">SASS</p>
+                <i class="icon_tech fab fa-sass icon__tech-sass"></i>
+              </div>
+              <div class="job__tech">
+                <p class="tech tech__gulp">GULP</p>
+                <i class="icon_tech fab fa-gulp icon__tech-gulp"></i>
+              </div>
+              <div class="job__tech">
+                <p class="tech tech__pug">PUG</p>
+                <i class="icon_tech fas fa-dog icon__tech-pug"></i>
+              </div>
+            </div>
+          </div>
+        </article>
+      </section>
 
-        <section class="columns columns--right">
-            <article class="card">
-                <h2 class="card__title">Front End</h2>
-                <small>años de experiencia</small>
-                <div class="experience">
-                    <span class="experience__years">0</span>
-                    <span class="experience__years">5</span>
-                </div>
-                <div class="skills">
-                    <div class="skills__items">
-                        <p class="skills__tech">HTML</p>
-                        <div class="skills__bar skills__bar--90"></div>
-                    </div>
-                    <div class="skills__items">
-                        <p class="skills__tech">css</p>
-                        <div class="skills__bar skills__bar--80"></div>
-                    </div>
-                    <div class="skills__items">
-                        <p class="skills__tech">js</p>
-                        <div class="skills__bar skills__bar--65"></div>
-                    </div>
-                    <div class="skills__items">
-                        <p class="skills__tech">ReactJs</p>
-                        <div class="skills__bar skills__bar--40"></div>
-                    </div>
-                </div>
-            </article>
-            <article class="card card--desing">
-                <h2 class="card__title">Diseño</h2>
-                <small>años de experiencia</small>
-                <div class="experience">
-                    <span class="experience__years">0</span>
-                    <span class="experience__years">5</span>
-                </div>
-                <div class="skills">
-                    <div class="skills__items">
-                        <p class="skills__tech">figma</p>
-                        <div class="skills__bar skills__bar--30"></div>
-                    </div>
-                </div>
-            </article>
-            <article class="card card--proyect">
-                <div class="card__image-container card__image-project">
-                    <img src="./assets/images/sliderFotos.jpg" alt="landing" class="card__img">
-                </div>
-                <div class="proyect">
-                    <div class="proyect__tags">
-                        <span class="proyect__tag">HTML</span>
-                        <span class="proyect__tag">CSS</span>
-                        <span class="proyect__tag">JS</span>
-                        <span class="proyect__tag">Resopnsive</span>
-                    </div>
-                    <h2 class="card__title">Slider de fotos</h2>
-                    <p class="card__text">
-                      Slider de fotos que contiene solamente 2. Pude cambiar haciendo clic en las flechas como
-                      cambiar con las teclas de izquierda a derecha del teclado y sino cada 7seg cambia solo.
-                    </p>
-                    <p class="card__text">
-                     Este slider lo programe en base las instrucciones de la pagina de Retos de <a target="_blank" class="card__button" href="https://www.frontendmentor.io/challenges">FrontEnd Mentor</a> 
-                    </p>
-                    <div class="buttons">
-                        <a target="_blank" href="https://maxigarrett.github.io/octavoReto/" class="button button__Demo">Demos</a>
-                        <a target="_blank" href="https://github.com/maxigarrett/octavoReto" class="button button__Code">Codigo</a>
-                    </div>
-                </div>
-            </article>
-            
-            <article class="card card--proyect">
-                <div class="card__image-container card__image-project">
-                    <img src="./assets/images/imgacordeon.png" alt="landing" class="card__img">
-                </div>
-                <div class="proyect">
-                    <div class="proyect__tags">
-                        <span class="proyect__tag">HTML</span>
-                        <span class="proyect__tag">CSS</span>
-                        <span class="proyect__tag">JS</span>
-                        <span class="proyect__tag">Resopnsive</span>
-                    </div>
-                    <h2 class="card__title">Acordeon</h2>
-                    <p class="card__text">
-                      Acordeon que muestra la informacion oculta lo hice de manera que cuando el usuario aga clic se despliegue uno
-                      y hacer clic en otro se cierre el anterior y despligue el nuevo que el usuario hizo clic pero simpre quedara uno 
-                      abierto.
-                    </p>
-                    <p class="card__text">
-                     Este acordeon lo programe en base las instrucciones de la pagina de Retos de <a target="_blank" class="card__button" href="https://www.frontendmentor.io/challenges">FrontEnd Mentor</a> 
-                    </p>
-                    <div class="buttons">
-                        <a target="_blank" href="https://maxigarrett.github.io/retoSeisAcordeon/" class="button button__Demo">Demos</a>
-                        <a target="_blank" href="https://github.com/maxigarrett/retoSeisAcordeon" class="button button__Code">Codigo</a>
-                    </div>
-                </div>
-            </article>
+      <section class="columns columns--right">
+        <article class="card">
+          <h2 class="card__title">Front End</h2>
+          <small>años de experiencia</small>
+          <div class="experience">
+            <span class="experience__years">0</span>
+            <span class="experience__years">5</span>
+          </div>
+          <div class="skills">
+            <div class="skills__items">
+              <p class="skills__tech">HTML</p>
+              <div class="skills__bar skills__bar--90"></div>
+            </div>
+            <div class="skills__items">
+              <p class="skills__tech">css</p>
+              <div class="skills__bar skills__bar--80"></div>
+            </div>
+            <div class="skills__items">
+              <p class="skills__tech">js</p>
+              <div class="skills__bar skills__bar--65"></div>
+            </div>
+            <div class="skills__items">
+              <p class="skills__tech">ReactJs</p>
+              <div class="skills__bar skills__bar--40"></div>
+            </div>
+          </div>
+        </article>
+        <article class="card card--desing">
+          <h2 class="card__title">Diseño</h2>
+          <small>años de experiencia</small>
+          <div class="experience">
+            <span class="experience__years">0</span>
+            <span class="experience__years">5</span>
+          </div>
+          <div class="skills">
+            <div class="skills__items">
+              <p class="skills__tech">figma</p>
+              <div class="skills__bar skills__bar--30"></div>
+            </div>
+          </div>
+        </article>
+        <article class="card card--proyect">
+          <div class="card__image-container card__image-project">
+            <img
+              src="./assets/images/sliderFotos.jpg"
+              alt="landing"
+              class="card__img"
+            />
+          </div>
+          <div class="proyect">
+            <div class="proyect__tags">
+              <span class="proyect__tag">HTML</span>
+              <span class="proyect__tag">CSS</span>
+              <span class="proyect__tag">JS</span>
+              <span class="proyect__tag">Resopnsive</span>
+            </div>
+            <h2 class="card__title">Slider de fotos</h2>
+            <p class="card__text">
+              Slider de fotos que contiene solamente 2. Pude cambiar haciendo
+              clic en las flechas como cambiar con las teclas de izquierda a
+              derecha del teclado y sino cada 7seg cambia solo.
+            </p>
+            <p class="card__text">
+              Este slider lo programe en base las instrucciones de la pagina de
+              Retos de
+              <a
+                target="_blank"
+                class="card__button"
+                href="https://www.frontendmentor.io/challenges"
+                >FrontEnd Mentor</a
+              >
+            </p>
+            <div class="buttons">
+              <a
+                target="_blank"
+                href="https://maxigarrett.github.io/octavoReto/"
+                class="button button__Demo"
+                >Demos</a
+              >
+              <a
+                target="_blank"
+                href="https://github.com/maxigarrett/octavoReto"
+                class="button button__Code"
+                >Codigo</a
+              >
+            </div>
+          </div>
+        </article>
 
-            
-            <article class="card card--proyect">
-                <div class="card__image-container card__image-project">
-                    <img src="./assets/images/testimonial.png" alt="landing" class="card__img">
-                </div>
-                <div class="proyect">
-                    <div class="proyect__tags">
-                        <span class="proyect__tag">HTML</span>
-                        <span class="proyect__tag">CSS</span>
-                        <span class="proyect__tag">JS</span>
-                        <span class="proyect__tag">Resopnsive</span>
-                    </div>
-                    <h2 class="card__title">Acordeon</h2>
-                    <p class="card__text">
-                        Este testimonio simulado consta de un tooltip que muestra las redes sociales una imagen de cabecera y foto de 
-                        el usuario con el comentario. ademas de un tooltip que muestra su redes sociales.
-                    </p>
-                    <p class="card__text">
-                        Este testimonio lo programe en base las instrucciones de la pagina de Retos de <a target="_blank" class="card__button" href="https://www.frontendmentor.io/challenges">FrontEnd Mentor</a> 
-                    </p>
-                    <div class="buttons">
-                        <a target="_blank" href="https://maxigarrett.github.io/septimoReto/" class="button button__Demo">Demos</a>
-                        <a target="_blank" href="https://github.com/maxigarrett/septimoReto" class="button button__Code">Codigo</a>
-                    </div>
-                </div>
-            </article>
+        <article class="card card--proyect">
+          <div class="card__image-container card__image-project">
+            <img
+              src="./assets/images/imgacordeon.png"
+              alt="landing"
+              class="card__img"
+            />
+          </div>
+          <div class="proyect">
+            <div class="proyect__tags">
+              <span class="proyect__tag">HTML</span>
+              <span class="proyect__tag">CSS</span>
+              <span class="proyect__tag">JS</span>
+              <span class="proyect__tag">Resopnsive</span>
+            </div>
+            <h2 class="card__title">Acordeon</h2>
+            <p class="card__text">
+              Acordeon que muestra la informacion oculta lo hice de manera que
+              cuando el usuario aga clic se despliegue uno y hacer clic en otro
+              se cierre el anterior y despligue el nuevo que el usuario hizo
+              clic pero simpre quedara uno abierto.
+            </p>
+            <p class="card__text">
+              Este acordeon lo programe en base las instrucciones de la pagina
+              de Retos de
+              <a
+                target="_blank"
+                class="card__button"
+                href="https://www.frontendmentor.io/challenges"
+                >FrontEnd Mentor</a
+              >
+            </p>
+            <div class="buttons">
+              <a
+                target="_blank"
+                href="https://maxigarrett.github.io/retoSeisAcordeon/"
+                class="button button__Demo"
+                >Demos</a
+              >
+              <a
+                target="_blank"
+                href="https://github.com/maxigarrett/retoSeisAcordeon"
+                class="button button__Code"
+                >Codigo</a
+              >
+            </div>
+          </div>
+        </article>
 
+        <article class="card card--proyect">
+          <div class="card__image-container card__image-project">
+            <img
+              src="./assets/images/testimonial.png"
+              alt="landing"
+              class="card__img"
+            />
+          </div>
+          <div class="proyect">
+            <div class="proyect__tags">
+              <span class="proyect__tag">HTML</span>
+              <span class="proyect__tag">CSS</span>
+              <span class="proyect__tag">JS</span>
+              <span class="proyect__tag">Resopnsive</span>
+            </div>
+            <h2 class="card__title">Acordeon</h2>
+            <p class="card__text">
+              Este testimonio simulado consta de un tooltip que muestra las
+              redes sociales una imagen de cabecera y foto de el usuario con el
+              comentario. ademas de un tooltip que muestra su redes sociales.
+            </p>
+            <p class="card__text">
+              Este testimonio lo programe en base las instrucciones de la pagina
+              de Retos de
+              <a
+                target="_blank"
+                class="card__button"
+                href="https://www.frontendmentor.io/challenges"
+                >FrontEnd Mentor</a
+              >
+            </p>
+            <div class="buttons">
+              <a
+                target="_blank"
+                href="https://maxigarrett.github.io/septimoReto/"
+                class="button button__Demo"
+                >Demos</a
+              >
+              <a
+                target="_blank"
+                href="https://github.com/maxigarrett/septimoReto"
+                class="button button__Code"
+                >Codigo</a
+              >
+            </div>
+          </div>
+        </article>
 
-            <article class="card card--proyect">
-                <div class="card__image-container card__image-project">
-                    <img src="./assets/images/filtroUsuario.jpg" alt="landing" class="card__img">
-                </div>
-                <div class="proyect">
-                    <div class="proyect__tags">
-                        <span class="proyect__tag">HTML</span>
-                        <span class="proyect__tag">PUG</span>
-                        <span class="proyect__tag">SASS</span>
-                        <span class="proyect__tag">CSS</span>
-                        <span class="proyect__tag">JS</span>
-                        <span class="proyect__tag">Resopnsive</span>
-                    </div>
-                    <h2 class="card__title">Filtro de usuarios</h2>
-                    <p class="card__text">
-                        Este filtro de usuarios esta echo con <strong>PUG</strong> que es un motor de plantilla que genera HTML al procesarlo en este caso con 
-                        <strong>PrePros</strong>,<strong>SASS</strong> procesador de css que nos permite generar automaticamente hojas de estilo <strong>CSS</strong> añadiendo variables ,funciones,etc.
-                        La funcion que cumple es que el usuario puede hacer un filtrado hacien clic en las etiquetas, ya sea html,javascript,python,etc.
-                        y se mostraran solo esas etiquetas seleccionadas. puede borrar todo lo que busco o solo la que desea renovandoce el filtro nuevamente.
-                    </p>
-                    <p class="card__text">
-                     Este filtro lo programe en base las instrucciones de la pagina de Retos de <a target="_blank" class="card__button" href="https://www.frontendmentor.io/challenges">FrontEnd Mentor</a> 
-                    </p>
-                    <div class="buttons">
-                        <a target="_blank" href="https://maxigarrett.github.io/filtroUsuarios_retosFront_1/" class="button button__Demo">Demos</a>
-                        <a target="_blank" href="https://github.com/maxigarrett/filtroUsuarios_retosFront_1" class="button button__Code">Codigo</a>
-                    </div>
-                </div>
-            </article>
+        <article class="card card--proyect">
+          <div class="card__image-container card__image-project">
+            <img
+              src="./assets/images/filtroUsuario.jpg"
+              alt="landing"
+              class="card__img"
+            />
+          </div>
+          <div class="proyect">
+            <div class="proyect__tags">
+              <span class="proyect__tag">HTML</span>
+              <span class="proyect__tag">PUG</span>
+              <span class="proyect__tag">SASS</span>
+              <span class="proyect__tag">CSS</span>
+              <span class="proyect__tag">JS</span>
+              <span class="proyect__tag">Resopnsive</span>
+            </div>
+            <h2 class="card__title">Filtro de usuarios</h2>
+            <p class="card__text">
+              Este filtro de usuarios esta echo con <strong>PUG</strong> que es
+              un motor de plantilla que genera HTML al procesarlo en este caso
+              con <strong>PrePros</strong>,<strong>SASS</strong> procesador de
+              css que nos permite generar automaticamente hojas de estilo
+              <strong>CSS</strong> añadiendo variables ,funciones,etc. La
+              funcion que cumple es que el usuario puede hacer un filtrado
+              hacien clic en las etiquetas, ya sea html,javascript,python,etc. y
+              se mostraran solo esas etiquetas seleccionadas. puede borrar todo
+              lo que busco o solo la que desea renovandoce el filtro nuevamente.
+            </p>
+            <p class="card__text">
+              Este filtro lo programe en base las instrucciones de la pagina de
+              Retos de
+              <a
+                target="_blank"
+                class="card__button"
+                href="https://www.frontendmentor.io/challenges"
+                >FrontEnd Mentor</a
+              >
+            </p>
+            <div class="buttons">
+              <a
+                target="_blank"
+                href="https://maxigarrett.github.io/filtroUsuarios_retosFront_1/"
+                class="button button__Demo"
+                >Demos</a
+              >
+              <a
+                target="_blank"
+                href="https://github.com/maxigarrett/filtroUsuarios_retosFront_1"
+                class="button button__Code"
+                >Codigo</a
+              >
+            </div>
+          </div>
+        </article>
 
-            <article class="card card--proyect">
-                <div class="card__image-container card__image-project">
-                    <img src="./assets/images/gridTestimonials.jpg" alt="landing" class="card__img">
-                </div>
-                <div class="proyect">
-                    <div class="proyect__tags">
-                        <span class="proyect__tag">HTML</span>
-                        <span class="proyect__tag">PUG</span>
-                        <span class="proyect__tag">SASS</span>
-                        <span class="proyect__tag">CSS</span>
-                        <span class="proyect__tag">JS</span>
-                        <span class="proyect__tag">Resopnsive</span>
-                    </div>
-                    <h2 class="card__title">Testimonial Grid section</h2>
-                    <p class="card__text">
-                        Este testimonios, son para mostrar el uso de css grid y lo mucho mas facil que es acomodar todo en la web en diferentes
-                        resoluciones. Las tecnologias que use son <strong>PUG</strong> <strong>SASS</strong> y <strong>PrePros</strong> para compilar todo.
-                    </p>
-                    <p class="card__text">
-                     Este articulos de testimonios lo programe en base las instrucciones de la pagina de Retos de <a target="_blank" class="card__button" href="https://www.frontendmentor.io/challenges">FrontEnd Mentor</a> 
-                    </p>
-                    <div class="buttons">
-                        <a target="_blank" href="https://maxigarrett.github.io/RetogridTestmonial/" class="button button__Demo">Demos</a>
-                        <a target="_blank" href="https://github.com/maxigarrett/RetogridTestmonial" class="button button__Code">Codigo</a>
-                    </div>
-                </div>
-            </article>
+        <article class="card card--proyect">
+          <div class="card__image-container card__image-project">
+            <img
+              src="./assets/images/gridTestimonials.jpg"
+              alt="landing"
+              class="card__img"
+            />
+          </div>
+          <div class="proyect">
+            <div class="proyect__tags">
+              <span class="proyect__tag">HTML</span>
+              <span class="proyect__tag">PUG</span>
+              <span class="proyect__tag">SASS</span>
+              <span class="proyect__tag">CSS</span>
+              <span class="proyect__tag">JS</span>
+              <span class="proyect__tag">Resopnsive</span>
+            </div>
+            <h2 class="card__title">Testimonial Grid section</h2>
+            <p class="card__text">
+              Este testimonios, son para mostrar el uso de css grid y lo mucho
+              mas facil que es acomodar todo en la web en diferentes
+              resoluciones. Las tecnologias que use son <strong>PUG</strong>
+              <strong>SASS</strong> y <strong>PrePros</strong> para compilar
+              todo.
+            </p>
+            <p class="card__text">
+              Este articulos de testimonios lo programe en base las
+              instrucciones de la pagina de Retos de
+              <a
+                target="_blank"
+                class="card__button"
+                href="https://www.frontendmentor.io/challenges"
+                >FrontEnd Mentor</a
+              >
+            </p>
+            <div class="buttons">
+              <a
+                target="_blank"
+                href="https://maxigarrett.github.io/RetogridTestmonial/"
+                class="button button__Demo"
+                >Demos</a
+              >
+              <a
+                target="_blank"
+                href="https://github.com/maxigarrett/RetogridTestmonial"
+                class="button button__Code"
+                >Codigo</a
+              >
+            </div>
+          </div>
+        </article>
 
-            <article class="card card--proyect">
-                <div class="card__image-container card__image-project">
-                    <img src="./assets/images/tarjetaCredito.png" alt="landing" class="card__img">
-                </div>
-                <div class="proyect">
-                    <div class="proyect__tags">
-                        <span class="proyect__tag">HTML</span>
-                        <span class="proyect__tag">CSS</span>
-                        <span class="proyect__tag">JS</span>
-                        <span class="proyect__tag">Resopnsive</span>
-                    </div>
-                    <h2 class="card__title">Simulación Tarjeta de credito</h2>
-                    <p class="card__text">
-                        Esta tarjeta se rellenará con el formulario que se despliega haciendo clic sobre la
-                        cruz blanca dependiendo de lo que escribe la tarjeta mostrará su lado trasero o 
-                        delantero. Tiene validación como en la numeración de la tarjeta no puede poner 
-                        espacios en blanco ni escribir letras, como también cada cuatro números agregara un
-                        espacio. El CVV tiene una validación simple que no permite escribir más de 
-                        tres dígitos ni espacios en blanco. 
-                    </p>
-                    <p class="card__text">
-                        Lo hice en base a un articulo que proponía el reto lo hice hace mucho tiempo y no recuerdo de donde lo saque 
-                    </p>
-                    <div class="buttons">
-                        <a target="_blank" href="https://maxigarrett.github.io/tarjetaDeCredito/" class="button button__Demo">Demos</a>
-                        <a target="_blank" href="https://github.com/maxigarrett/tarjetaDeCredito" class="button button__Code">Codigo</a>
-                    </div>
-                </div>
-            </article>
+        <article class="card card--proyect">
+          <div class="card__image-container card__image-project">
+            <img
+              src="./assets/images/tarjetaCredito.png"
+              alt="landing"
+              class="card__img"
+            />
+          </div>
+          <div class="proyect">
+            <div class="proyect__tags">
+              <span class="proyect__tag">HTML</span>
+              <span class="proyect__tag">CSS</span>
+              <span class="proyect__tag">JS</span>
+              <span class="proyect__tag">Resopnsive</span>
+            </div>
+            <h2 class="card__title">Simulación Tarjeta de credito</h2>
+            <p class="card__text">
+              Esta tarjeta se rellenará con el formulario que se despliega
+              haciendo clic sobre la cruz blanca dependiendo de lo que escribe
+              la tarjeta mostrará su lado trasero o delantero. Tiene validación
+              como en la numeración de la tarjeta no puede poner espacios en
+              blanco ni escribir letras, como también cada cuatro números
+              agregara un espacio. El CVV tiene una validación simple que no
+              permite escribir más de tres dígitos ni espacios en blanco.
+            </p>
+            <p class="card__text">
+              Lo hice en base a un articulo que proponía el reto lo hice hace
+              mucho tiempo y no recuerdo de donde lo saque
+            </p>
+            <div class="buttons">
+              <a
+                target="_blank"
+                href="https://maxigarrett.github.io/tarjetaDeCredito/"
+                class="button button__Demo"
+                >Demos</a
+              >
+              <a
+                target="_blank"
+                href="https://github.com/maxigarrett/tarjetaDeCredito"
+                class="button button__Code"
+                >Codigo</a
+              >
+            </div>
+          </div>
+        </article>
 
-            <article class="card card--proyect">
-                <div class="card__image-container card__image-project">
-                    <img src="./assets/images/carrucelDeImagenes.png" alt="landing" class="card__img">
-                </div>
-                <div class="proyect">
-                    <div class="proyect__tags">
-                        <span class="proyect__tag">HTML</span>
-                        <span class="proyect__tag">CSS</span>
-                        <span class="proyect__tag">JS</span>
-                        <span class="proyect__tag">Resopnsive</span>
-                    </div>
-                    <h2 class="card__title">Carrucel de imagenes</h2>
-                    <p class="card__text">
-                        Carrusel de imágenes cuenta con unos círculos que muestra cuantas fotos hay,
-                        y por cual va pasando. También puede seleccionarse un círculo y mostrará la 
-                        imagen seleccionada si saca el mouse de ese círculo volverá a la imágenes 
-                        donde estaba antes de seleccionarse                      
-                    </p>
-                    <div class="buttons">
-                        <a target="_blank" href="https://maxigarrett.github.io/carrucelDeImagenes/" class="button button__Demo">Demos</a>
-                        <a target="_blank" href="https://github.com/maxigarrett/carrucelDeImagenes" class="button button__Code">Codigo</a>
-                    </div>
-                </div>
-            </article>
-        </section>
+        <article class="card card--proyect">
+          <div class="card__image-container card__image-project">
+            <img
+              src="./assets/images/carrucelDeImagenes.png"
+              alt="landing"
+              class="card__img"
+            />
+          </div>
+          <div class="proyect">
+            <div class="proyect__tags">
+              <span class="proyect__tag">HTML</span>
+              <span class="proyect__tag">CSS</span>
+              <span class="proyect__tag">JS</span>
+              <span class="proyect__tag">Resopnsive</span>
+            </div>
+            <h2 class="card__title">Carrucel de imagenes</h2>
+            <p class="card__text">
+              Carrusel de imágenes cuenta con unos círculos que muestra cuantas
+              fotos hay, y por cual va pasando. También puede seleccionarse un
+              círculo y mostrará la imagen seleccionada si saca el mouse de ese
+              círculo volverá a la imágenes donde estaba antes de seleccionarse
+            </p>
+            <div class="buttons">
+              <a
+                target="_blank"
+                href="https://maxigarrett.github.io/carrucelDeImagenes/"
+                class="button button__Demo"
+                >Demos</a
+              >
+              <a
+                target="_blank"
+                href="https://github.com/maxigarrett/carrucelDeImagenes"
+                class="button button__Code"
+                >Codigo</a
+              >
+            </div>
+          </div>
+        </article>
+        <article class="card card--proyect">
+          <div class="card__image-container card__image-project">
+            <img
+              src="./assets/images/inputsAnimados.png"
+              alt="landing"
+              class="card__img"
+            />
+          </div>
+          <div class="proyect">
+            <div class="proyect__tags">
+              <span class="proyect__tag">HTML</span>
+              <span class="proyect__tag">CSS</span>
+              <span class="proyect__tag">JS</span>
+              <span class="proyect__tag">Resopnsive</span>
+            </div>
+            <h2 class="card__title">inputs radio y checbox</h2>
+            <p class="card__text">
+              el estilo css no es el mejor pero solo quería mostrar una forma de
+              animar los inputs a la hora de seleccionarlo, el color puede ser
+              cualquiera. tiene una pequeña validación en los inputs radio a la
+              hora de elegir el sexo. he visto muchos tutoriales donde todos
+              recorren con un ciclo FOR cada input y ponerlo a la escucha. Pues
+              a mí me pareció mucho mejor al ser tan poquitos no implementar ese
+              ciclo y solo unas pocas líneas de JS donde si selecciona uno
+              mostrara en un pequeño párrafo el sexo seleccionado y la que
+              guarda cualquier información es solo una variable.
+            </p>
+            <div class="buttons">
+              <a
+                target="_blank"
+                href="https://maxigarrett.github.io/inputsAnimados/"
+                class="button button__Demo"
+                >Demos</a
+              >
+              <a
+                target="_blank"
+                href="https://github.com/maxigarrett/inputsAnimados"
+                class="button button__Code"
+                >Codigo</a
+              >
+            </div>
+          </div>
+        </article>
+      </section>
     </main>
     <script src="./js/index.js"></script>
-</body>
+  </body>
 </html>
