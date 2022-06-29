@@ -361,3 +361,8 @@ body.dark {
   border: 1px solid var(--primary-color);
   color: var(--primary-color);
 }
+
+.title_react {
+  color: #61dafb;
+  border-bottom: 1px solid white;
+}
