@@ -6,6 +6,7 @@
   --border-radius: 0.4em;
   --transition-colors: color 0.2s, background-color 0.2s ease-in-out;
   --skill-bar-length: 0%;
+  --color-title-react: #61dafb;
 }
 * {
   box-sizing: border-box;
@@ -18,6 +19,11 @@ img {
   max-width: 100%;
   min-height: 100%;
   display: block;
+}
+.title_react {
+  color: var(--color-title-react);
+  border-bottom: 1px solid white;
+  margin: 20px 0 0 0;
 }
 
 body {
@@ -360,10 +366,4 @@ body.dark {
   background-color: transparent;
   border: 1px solid var(--primary-color);
   color: var(--primary-color);
-}
-
-.title_react {
-  color: #61dafb;
-  border-bottom: 1px solid white;
-  margin: 20px 0 0 0;
 }
