@@ -7,6 +7,7 @@
   --transition-colors: color 0.2s, background-color 0.2s ease-in-out;
   --skill-bar-length: 0%;
   --color-title-react: #61dafb;
+  --color-title-js: #efd81d;
 }
 * {
   box-sizing: border-box;
@@ -20,16 +21,70 @@ img {
   min-height: 100%;
   display: block;
 }
-.title_react,
-.title_js {
-  color: var(--color-title-react);
-  border-bottom: 1px solid white;
-  margin: 20px 0 0 0;
+
+/* -------CREAR HOLA EEN EL TEXT ---------*/
+.wave-container {
+  height: 50px;
+  position: relative;
 }
 .title_js {
-  color: #efd81d;
+  position: absolute;
+  font-size: 1.8rem;
+}
+.title_js-border {
+  color: hsl(0, 0%, 15%);
+  text-shadow: -1px -1px 0 white, 1px -1px 0 white, 1px 1px 0 white,
+    -1px 1px 0 white;
+}
+.title_js-wave {
+  color: var(--color-title-js);
+  animation: wave 3s ease-in-out infinite;
 }
 
+@keyframes wave {
+  0%,
+  100% {
+    clip-path: polygon(
+      0% 47%,
+      10% 48%,
+      33% 54%,
+      54% 60%,
+      70% 61%,
+      84% 89%,
+      100% 52%,
+      100% 100%,
+      0% 100%
+    );
+  }
+  50% {
+    clip-path: polygon(
+      0% 60%,
+      15% 65%,
+      34% 66%,
+      51% 62%,
+      67% 50%,
+      84% 45%,
+      100% 46%,
+      100% 100%,
+      0% 100%
+    );
+  }
+}
+.title_react {
+  position: absolute;
+  font-size: 1.8rem;
+}
+.title_react-border {
+  color: hsl(0, 0%, 15%);
+  text-shadow: -1px -1px 0 white, 1px -1px 0 white, 1px 1px 0 white,
+    -1px 1px 0 white;
+}
+.title_react-wave {
+  color: var(--color-title-react);
+  animation: wave 3s ease-in-out infinite;
+}
+
+/* -------FIN CREAR HOLA EEN EL TEXT ---------*/
 body {
   margin: 0;
   background-color: var(--bg-color);
