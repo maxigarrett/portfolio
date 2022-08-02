@@ -20,10 +20,14 @@ img {
   min-height: 100%;
   display: block;
 }
-.title_react {
+.title_react,
+.title_js {
   color: var(--color-title-react);
   border-bottom: 1px solid white;
   margin: 20px 0 0 0;
+}
+.title_js {
+  color: #efd81d;
 }
 
 body {
