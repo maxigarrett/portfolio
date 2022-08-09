@@ -184,9 +184,6 @@ body.dark {
 }
 @media screen and (min-width: 720px) {
   .columns--right {
-    /* en caso de agregar mas card de domonios de tecnologias en 
-        grid-template-columns agregar en el repeat un mayor numero de columnas */
-    /* grid-template-columns: repeat(2, 1fr); */
     grid-template-rows: repeat(3, min-content);
     align-items: flex-start;
   }
